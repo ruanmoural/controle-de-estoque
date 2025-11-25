@@ -8,8 +8,6 @@ Cadastrar produtos com nome, quantidade e preço
 
 Editar informações de produtos existentes
 
-Excluir produtos do estoque
-
 Listar produtos cadastrados
 
 Armazenamento em arquivo JSON (ou banco de dados, dependendo da versão)
@@ -18,17 +16,15 @@ Interface simples, clara e objetiva
 
 🛠️ Tecnologias utilizadas
 
-Dependendo da sua implementação, por exemplo:
+PHP (backend)
 
-PHP (para backend)
+JSON como base de dados
 
-JSON como banco de dados simples
-
-HTML / CSS / JavaScript para interface
+HTML / CSS / JavaScript
 
 Bootstrap (opcional)
 
-XAMPP / WampServer (ambiente local)
+Ambiente local como XAMPP ou WampServer
 
 📂 Estrutura de Arquivos (exemplo)
 /projeto-estoque
@@ -43,11 +39,9 @@ XAMPP / WampServer (ambiente local)
 
 Coloque o projeto na pasta htdocs (se usar XAMPP)
 
-Inicie o Apache
+Inicie o servidor Apache
 
-Acesse no navegador:
-
-http://localhost/projeto-estoque
+Acesse no navegador o nome da pasta do projeto instalado no seu servidor local
 
 📖 Exemplo de cadastro (PHP)
 $id = $_POST["id"];
@@ -67,7 +61,7 @@ file_put_contents("banco.json", json_encode($produtos, JSON_PRETTY_PRINT));
 
 🧪 Possíveis melhorias
 
-Implementar login de usuário (admin)
+Implementar login de usuário
 
 Criar gráficos de movimentação de estoque
 
