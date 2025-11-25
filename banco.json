@@ -8,5 +8,15 @@
     "nome": "Cenoura",
     "quantidade": 2,
     "preco": 4.00
+  },
+  {
+    "nome": "Carne",
+    "quantidade": 7,
+    "preco": 11.50
+  },
+  {
+    "nome": "Macarrão",
+    "quantidade": 3,
+    "preco": 3.50
   }
 ]
